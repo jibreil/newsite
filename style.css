@@ -50,10 +50,11 @@ a:hover {
 }
 
 .container {
-  margin-top: 50px;
+  margin-top: 90px;
+  margin-left: 15%;
   text-align: left;
   display: table;
-  width: 100%;
+  width: 85%;
 }
 
 .textbox, .imgbox {
