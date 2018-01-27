@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a:active, a:focus {
+  outline: 0;
+}
+
+h1, h2, h3, h4, h5, h6, span {
+  font-size: 100%;
+  font-weight: normal;
+  letter-spacing: -2px
+}
+
+body {
+  font-family: 'Nunito', 'graphik', "Helvetica Neue Light", Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  font-weight: regular;
+  font-style: normal;
+}
+
+a {
+  color: #3F434B;
+  -o-transition: .3s;
+  -ms-transition: .3s;
+  -moz-transition: .3s;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #2b78f6;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fcc0cb;
+}
+
+.container {
+  text-align: left;
+  display: table;
+  width: 100%;
+}
+
+.textbox, .imgbox {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.textbox {
+  padding: 62px 85px;
+  min-width: 295px;
+  width: 295px;
+}
+
+h1 {
+  font-weight: regular;
+  max-width: 295px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  line-height: 70px;
+}
+
+p {
+  margin-bottom: 28px;
+  max-width: 295px;
+}
+
+@media screen and (max-device-width: 568px) {
+  .imgbox {
+    display: none;
+  }
+  .textbox {
+    padding: 55px 75px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .imgbox {
+    display: none;
+  }
+}
