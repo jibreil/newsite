@@ -26,7 +26,7 @@ body {
   font-size: 18px;
   letter-spacing: 0px;
   line-height: 30px;
-  font-weight: regular;
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -50,7 +50,7 @@ a:hover {
 }
 
 .container {
-  margin-top: 90px;
+  margin-top: 50px;
   margin-left: 15%;
   text-align: left;
   display: table;
@@ -69,7 +69,7 @@ a:hover {
 }
 
 h1 {
-  font-weight: regular;
+  font-weight: normal;
   max-width: 295px;
   margin-bottom: 20px;
   font-size: 40px;
