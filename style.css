@@ -85,17 +85,14 @@ p {
   max-width: 295px !important;
 }
 
-@media screen and (max-device-width: 568px) {
+@media screen and (max-width: 600px) {
   .imgbox {
     display: none;
   }
   .textbox {
     padding: 55px 75px;
   }
-}
-
-@media screen and (max-width: 800px) {
-  .imgbox {
-    display: none;
+  .container {
+    margin-top: 0px;
   }
 }
