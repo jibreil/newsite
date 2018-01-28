@@ -70,7 +70,7 @@ a:hover {
 
 h1 {
   font-weight: normal;
-  max-width: 295px;
+  max-width: 80%;
   margin-bottom: 20px;
   font-size: 40px;
   line-height: 70px;
@@ -78,7 +78,11 @@ h1 {
 
 p {
   margin-bottom: 28px;
-  max-width: 295px;
+  max-width: 80%;
+}
+
+#index {
+  max-width: 295px !important;
 }
 
 @media screen and (max-device-width: 568px) {
