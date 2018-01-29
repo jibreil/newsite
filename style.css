@@ -82,7 +82,7 @@ p {
 }
 
 #index {
-  max-width: 295px !important;
+  max-width: 295px;
 }
 
 @media screen and (max-width: 600px) {
@@ -90,9 +90,12 @@ p {
     display: none;
   }
   .textbox {
-    padding: 55px 75px;
+    padding: 30px;
   }
   .container {
     margin-top: 0px;
+  }
+  body {
+    line-height: 23px;
   }
 }
