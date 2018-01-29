@@ -68,6 +68,10 @@ a:hover {
   width: 295px;
 }
 
+.imgbox {
+  max-width: 60px;
+}
+
 h1 {
   font-weight: normal;
   max-width: 80%;
