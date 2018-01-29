@@ -55,6 +55,7 @@ a:hover {
   text-align: left;
   display: table;
   width: 85%;
+  max-width: 640px;
 }
 
 .textbox, .imgbox {
@@ -66,10 +67,6 @@ a:hover {
   padding-left: 65px;
   min-width: 295px;
   width: 295px;
-}
-
-.imgbox {
-  max-width: 60px;
 }
 
 h1 {
