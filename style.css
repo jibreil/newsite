@@ -63,7 +63,7 @@ a:hover {
 }
 
 .textbox {
-  padding: 62px 85px;
+  padding-left: 65px;
   min-width: 295px;
   width: 295px;
 }
@@ -85,6 +85,10 @@ p {
   max-width: 295px;
 }
 
+#smol {
+  max-width: 75%;
+}
+
 @media screen and (max-width: 600px) {
   .imgbox {
     display: none;
@@ -97,5 +101,8 @@ p {
   }
   body {
     line-height: 23px;
+  }
+  #smol {
+    max-width: 100%;
   }
 }
