@@ -51,7 +51,7 @@ a:hover {
 }
 
 .container {
-  margin-top: 5%;
+  margin-top: 3%;
   text-align: left;
   display: table;
   width: 85%;
@@ -63,7 +63,7 @@ a:hover {
 }
 
 .textbox {
-  padding-left: 7%;
+  padding-left: 8%;
   min-width: 295px;
   width: 295px;
 }
@@ -90,7 +90,7 @@ p {
 }
 
 #smol {
-  max-width: 75%;
+  max-width: 70%;
 }
 
 @media screen and (max-width: 600px) {
