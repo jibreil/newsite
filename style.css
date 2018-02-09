@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  background: #e2e2e2;
+  background: #151718;
 }
 
 fieldset, img {
@@ -29,6 +29,7 @@ body {
   line-height: 30px;
   font-weight: normal;
   font-style: normal;
+  color: #ffffff;
 }
 
 a {
@@ -66,6 +67,10 @@ a:hover {
   padding-left: 8%;
   min-width: 295px;
   width: 295px;
+}
+
+.imgbox {
+  padding-left: 10%;
 }
 
 .imgbox img {
